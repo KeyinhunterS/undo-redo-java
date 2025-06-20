@@ -1,6 +1,6 @@
 package com.hunter.undoredo;
 
-public class UndoRedoManger <T> {
+public class UndoRedoManager<T> {
     private Node<T> current;
 
     public void addState(T state) {

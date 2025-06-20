@@ -17,6 +17,6 @@ public class Main {
         System.out.println("Redo: " + manager.getCurrentState());
         manager.addState("State 4");
         System.out.println("Current: " + manager.getCurrentState());
-        manager.redo(); // Should print: Nothing to redo.
+        manager.redo(); // Nothing to redo
     }
 }
